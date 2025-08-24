@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Page</title>
+      <link rel="stylesheet" href="login.css">
+      <!--links css file to html-->
+</head>
+<body>
+
+
+    <header>
+        <h1>Login Information </h1>
+        <!--this goes at the top of the page-->
+    </header>
+    <main>
+<section>
+    <h2>Enter Information</h2>
+   <!--goes by the textboxes--> 
+   </form>
+<form name="frmlogin" id="frmlogin" method="post" action="#"
+onsubmit="return logininfo();">
+<!--login name-->
+<label for="txtname">login Name</label>
+<input type="text" id="txtname" name="txtname" placeholder="chris">
+<!--password-->
+<label for="txtpassword">Password</label>
+<input type="text" id="txtpassword" name="txtpassword" placeholder="September 9, 2005">
+<!--favorite color-->
+<label for="txtcolor">Favorite Color</label>
+<input type="text" id="txtcolor" name="txtcolor" placeholder="Green">
+<!--Favorite animal-->
+<label for="txtanimal">Favorite Animal</label>
+<input type="text" id="txtanimal" name="txtanimal" placeholder="Panda">
+<!--submit button-->
+<input type="submit" value="Submit Information" id="button">
+
+
+</form>
+
+</section>
+    </main>
+    <script src="Login.js">
+        //links java script with html
+    </script>
+</body>
+</html>

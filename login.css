@@ -1,0 +1,50 @@
+form{
+max-width: 500px;
+border: 5px dashed rgb(255, 4, 0);
+border-radius: 10px;
+padding: 10px;
+background-color: aqua;
+/* this does the form*/
+/*i gave it a dashed border, backround color, and added some padding*/
+
+}
+
+
+label,input{
+display: block;
+padding: 6px;
+/*mess with inputs and makes them look nice*/
+}
+label,input[type = "submit"] {
+    margin: 5px;
+}
+/*adds more margin*/
+body{
+    background-color: rgb(8, 8, 8);
+}
+/*backround color set to black*/
+h1{
+color: rgb(244, 140, 5);
+font-style: italic;
+}
+/*mess with the h1, color set to orange and font style is italic*/
+h2{
+color: rgb(41, 15, 238);
+font-style:italic
+}
+/*messes with the h2, color is purple and font style set to italic*/
+#button{
+    color: rgb(249, 6, 6);
+    /*color set to red*/
+    border-radius: 30px;
+    /*border radius 30px*/
+  margin: 15px;
+  /*margin 15px*/
+    background-color: rgb(248, 246, 250);
+    /*backround color white*/
+    padding: 10px;
+    /*adds padding*/
+    border: 5px solid black;
+    /*adds a border*/
+    
+}
